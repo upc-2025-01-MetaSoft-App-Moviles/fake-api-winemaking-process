@@ -1,0 +1,52 @@
+{
+  "wine_batches": [
+    {
+      "id": "b1f8e2d1-1111-4a6e-b0c3-000000000001",
+      "internal_code": "B2024-VINEYARD01",
+      "reception_date": "2024-03-15T08:30:00Z",
+      "harvest_campaign": "2024",
+      "vineyard_origin": "Valle de Ica",
+      "grape_variety": "Malbec",
+      "initial_grape_quantity_kg": 1500.5,
+      "created_by": "juan.perez@elixirline.pe",
+      "status": "en_proceso",
+      "current_stage": "fermentacion_alcoholica"
+    },
+    {
+      "id": "b1f8e2d1-1111-4a6e-b0c3-000000000002",
+      "internal_code": "B2024-VINEYARD02",
+      "reception_date": "2024-03-20T10:00:00Z",
+      "harvest_campaign": "2024",
+      "vineyard_origin": "Valle del Colca",
+      "grape_variety": "Cabernet Sauvignon",
+      "initial_grape_quantity_kg": 1320.0,
+      "created_by": "maria.lopez@elixirline.pe",
+      "status": "completado",
+      "current_stage": "maduracion"
+    },
+    {
+      "id": "b1f8e2d1-1111-4a6e-b0c3-000000000003",
+      "internal_code": "B2024-VINEYARD03",
+      "reception_date": "2024-04-01T14:45:00Z",
+      "harvest_campaign": "2024",
+      "vineyard_origin": "Moquegua",
+      "grape_variety": "Syrah",
+      "initial_grape_quantity_kg": 980.0,
+      "created_by": "carlos.ramos@elixirline.pe",
+      "status": "en_proceso",
+      "current_stage": "prensado"
+    },
+    {
+      "id": "b1f8e2d1-1111-4a6e-b0c3-000000000004",
+      "internal_code": "B2024-VINEYARD04",
+      "reception_date": "2024-04-10T09:15:00Z",
+      "harvest_campaign": "2024",
+      "vineyard_origin": "Arequipa",
+      "grape_variety": "Tempranillo",
+      "initial_grape_quantity_kg": 1650.75,
+      "created_by": "laura.gomez@elixirline.pe",
+      "status": "pendiente",
+      "current_stage": "recepcion"
+    }
+  ]
+}
