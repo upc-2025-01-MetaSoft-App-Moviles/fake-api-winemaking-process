@@ -10,7 +10,8 @@
       "initial_grape_quantity_kg": 1500.5,
       "created_by": "juan.perez@elixirline.pe",
       "status": "en_proceso",
-      "current_stage": "fermentacion_alcoholica"
+      "current_stage": "fermentacion_alcoholica",
+      "url_image": "https://marianobraga.com/wp-content/uploads/2022/11/Malbec-el-gran-vino-argentino.jpg"
     },
     {
       "id": "b1f8e2d1-1111-4a6e-b0c3-000000000002",
@@ -22,7 +23,8 @@
       "initial_grape_quantity_kg": 1320.0,
       "created_by": "maria.lopez@elixirline.pe",
       "status": "completado",
-      "current_stage": "maduracion"
+      "current_stage": "maduracion",
+      "url_image": "https://marianobraga.com/wp-content/uploads/2022/11/Malbec-el-gran-vino-argentino.jpg"
     },
     {
       "id": "b1f8e2d1-1111-4a6e-b0c3-000000000003",
@@ -34,7 +36,8 @@
       "initial_grape_quantity_kg": 980.0,
       "created_by": "carlos.ramos@elixirline.pe",
       "status": "en_proceso",
-      "current_stage": "prensado"
+      "current_stage": "prensado",
+      "url_image": "https://marianobraga.com/wp-content/uploads/2022/11/Malbec-el-gran-vino-argentino.jpg"
     },
     {
       "id": "b1f8e2d1-1111-4a6e-b0c3-000000000004",
@@ -46,7 +49,8 @@
       "initial_grape_quantity_kg": 1650.75,
       "created_by": "laura.gomez@elixirline.pe",
       "status": "pendiente",
-      "current_stage": "recepcion"
+      "current_stage": "recepcion",
+      "url_image": "https://marianobraga.com/wp-content/uploads/2022/11/Malbec-el-gran-vino-argentino.jpg"
     }
   ]
 }
