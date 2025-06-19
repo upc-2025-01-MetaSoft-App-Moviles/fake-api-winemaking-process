@@ -52,5 +52,167 @@
       "current_stage": "recepcion",
       "url_image": "https://marianobraga.com/wp-content/uploads/2022/11/Malbec-el-gran-vino-argentino.jpg"
     }
-  ]
+  ],
+  "stages": [ 
+  {
+    "id": "STG-132",
+    "batchId": "934f5dd8-b0a6-4e2e-9b44-878f7481623b",
+    "receptionStage": {
+      "stage": "Recepción",
+      "registeredBy": "Danni Vargas",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "sugarLevelBrix": 21.3,
+      "pH": 3.28,
+      "temperature": 18.7,
+      "quantityKg": 1248.4,
+      "comments": "Uvas frescas, sin signos de podredumbre.",
+      "isCompleted": true
+    },
+    "correctionStage": {
+      "stage": "Corrección",
+      "registeredBy": "Alonso Alvarez",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "initialBrix": 20.5,
+      "finalBrix": 23.5,
+      "addedSugarKg": 4.2,
+      "initialPH": 3.9,
+      "finalPH": 3.6,
+      "acidType": "Tartárico",
+      "acidAddedGL": 1.5,
+      "SO2AddedMgL": 60,
+      "nutrientsAdded": [
+        {
+          "name": "Nutriente de levadura",
+          "quantityMgL": 50,
+          "unit": "mg/L"
+        },
+        {
+          "name": "DAP",
+          "quantityMgL": 30,
+          "unit": "mg/L"
+        }
+      ],
+      "justification": "Mosto con parámetros fuera de rango.",
+      "comments": "Corrección adecuada.",
+      "isCompleted": true
+    },
+    "fermentationStage": {
+      "stage": "Fermentación",
+      "registeredBy": "Alonso Alvarez",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "yeastUsedMgL": 225,
+      "pH": 3.4,
+      "initialBrix": 23.5,
+      "finalBrix": 1.5,
+      "initialpH": 3.6,
+      "finalpH": 3.45,
+      "temperatureMax": 25.8,
+      "temperatureMin": 16.2,
+      "fermentationType": "alcohólica",
+      "tankCode": "TK-FRM-07",
+      "isFinalized": true,
+      "comments": "Fermentación sin desviaciones.",
+      "isCompleted": true
+    },
+    "pressingStage": {
+      "stage": "Prensado",
+      "registeredBy": "Danni Vargas",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "pressType": "Neumática",
+      "pressPressureBars": 1.8,
+      "durationMinutes": 75,
+      "pomaceKg": 350,
+      "yieldLiters": 1050,
+      "mustUsage": "Vino blanco joven",
+      "comments": "Mosto limpio.",
+      "isCompleted": true
+    },
+    "clarificationStage": {
+      "stage": "Clarificación",
+      "registeredBy": "Camila Fuentes",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "method": "Bentonita",
+      "clarifyingAgents": [
+        {
+          "name": "Bentonita",
+          "dose": 5,
+          "unit": "g/hL"
+        },
+        {
+          "name": "Gelatina",
+          "dose": 2,
+          "unit": "g/hL"
+        }
+      ],
+      "turbidityBeforeNTU": 35,
+      "turbidityAfterNTU": 2.8,
+      "volumeLiters": 1200,
+      "temperature": 4,
+      "durationHours": 48,
+      "comments": "Clarificación efectiva.",
+      "isCompleted": true
+    },
+    "agingStage": {
+      "stage": "Añejamiento",
+      "registeredBy": "Danni Vargas",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "containerType": "Barrica",
+      "material": "Roble Francés",
+      "containerCode": "BARR-FR-12",
+      "avgTemperature": 16.5,
+      "volumeLiters": 225,
+      "durationMonths": 6,
+      "frequencyDays": null,
+      "refilled": 15,
+      "batonnage": 0,
+      "rackings": 2,
+      "purpose": "Crianza oxidativa",
+      "comments": "Integración madera-vino adecuada.",
+      "isCompleted": true
+    },
+    "filtrationStage": {
+      "stage": "Filtración",
+      "registeredBy": "Alonso Alvarez",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "filtrationType": "Filtración estéril",
+      "filterMedia": "Membrana PES",
+      "poreMicrons": 0.45,
+      "turbidityBefore": 2.5,
+      "turbidityAfter": 0.4,
+      "temperature": 14,
+      "pressureBars": 1,
+      "filteredVolumeLiters": 1200,
+      "isSterile": true,
+      "filterChanged": true,
+      "changeReason": "Sin cambio",
+      "comments": "Filtración adecuada.",
+      "isCompleted": true
+    },
+    "bottlingStage": {
+      "stage": "Embotellado",
+      "registeredBy": "Camila Fuentes",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-10",
+      "bottlingLine": "LINEA-2",
+      "bottlesFilled": 1600,
+      "bottleVolumeMl": 750,
+      "totalVolumeLiters": 1200,
+      "sealType": "Corcho natural",
+      "code": "B2024-VINEYARD01",
+      "temperature": 15,
+      "wasFiltered": true,
+      "wereLabelsApplied": true,
+      "wereCapsulesApplied": true,
+      "comments": "Proceso fluido.",
+      "isCompleted": false
+    }
+  }
+]
 }
